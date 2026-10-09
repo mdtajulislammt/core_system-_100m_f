@@ -64,7 +64,7 @@ function RecordsDashboardContent() {
     status,
     category,
     limit,
-    maxPages: env.maxPagesInMemory, // Memory guard: keep max pages in active memory
+    maxPages: env.maxPagesInMemory,
   });
 
   // Flatten nested pages from useInfiniteQuery
